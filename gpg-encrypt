@@ -173,3 +173,4 @@ gpg \
     --quiet --no-greeting \
     --pinentry-mode=loopback \
     "$@"
+gpgconf --kill gpg-agent
